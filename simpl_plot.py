@@ -18,9 +18,14 @@ class Simple_graph():
         plt.show()
 
         return None
+    def __add_line__(self):
 
+        graph1 = plt.plot([-1.0, 1.0], [0.0, 1.0])
+
+        return None
     def draw(self):
 
+        self.__add_line__()
         self.__add_point_on_g__(10, 10)
 
         return None
